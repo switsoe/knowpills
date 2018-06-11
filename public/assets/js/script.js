@@ -89,6 +89,6 @@ sr.reveal('#altLink', {
 
 sr.reveal('#supportLink', {
     origin: 'right',
-    distance: '300px',
+    distance: '100px',
     duration: 1000
 });

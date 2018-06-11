@@ -25,6 +25,6 @@ VALUES ("How does one practice Mindfullness?", "People can practice mindfulness 
 Other forms of mindfulness practice include; seated meditation that asks you to focus on your breathing, observing-thought meditation, where you acknowledge thoughts that arise in your mind and let them go without judgment, walking meditation that lets you pay careful attention to the details of your surroundings.");
 
 INSERT INTO Mind_Ex (Name, Details)
-VALUES ("Does exersise assist in reconvery?", "Studies show that exercise and physical activity can actually help return dopamine levels to pre-abuse heights. Lessening withdraw effects";
+VALUES ("Does exersise assist in recovery?", "Studies show that exercise and physical activity can actually help return dopamine levels to pre-abuse heights. Lessening withdraw effects";
 
 SELECT * FROM Mind_Ex;

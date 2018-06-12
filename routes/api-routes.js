@@ -1,4 +1,5 @@
 var db = require("../models");
+var connection = require("../config/config.json");
 
 module.exports = function (app) {
 
@@ -9,5 +10,13 @@ module.exports = function (app) {
             });
     });
 
+    app.get("/api/alt/", function (req, res) {
+        db.Alternative.findAll({})
+            .then(function (data) {
+                console.log(data);
+                
+                res.json(data);
+            });
+    });
 
 };

@@ -1,18 +1,3 @@
-DROP DATABASE IF EXISTS pillsDB;
-CREATE database pillsDB;
-
-USE pillsDB;
-
-CREATE TABLE Alternatives (
-  id Int( 100 ) AUTO_INCREMENT NOT NULL,
-  Name VARCHAR(100) NOT NULL,
-  Details VARCHAR(300) NOT NULL,
-  PRIMARY KEY(ID)
-);
-
-
-
--- Creates new rows containing data in all named columns --
 INSERT INTO Alternatives (Name, Details)
 VALUES ("B-Complex", "This vitamin is beneficial to relieve stress and provide more balance to the nerves. This can be desirable for the agitation caused by opiate addiction.");
 

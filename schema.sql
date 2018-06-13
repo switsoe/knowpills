@@ -1,2 +1,0 @@
-DROP DATABASE IF EXISTS pillsDB;
-CREATE database pillsDB;
